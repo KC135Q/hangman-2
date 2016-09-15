@@ -5,8 +5,7 @@ var wordArray = ["Absolute address", "Absolute Coding", "Access violation", "ACM
 
 //Public
 module.exports = Game;
-function Game(n) {
-    this.game = n;
-    console.log('Game is on');
-    console.log("We have " + wordArray.length + " words to guess!");
+function Game() {
+    var randomWordIndex = Math.floor(Math.random() * wordArray.length);
+    module.exports.word = wordArray[randomWordIndex];
 }

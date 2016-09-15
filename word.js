@@ -6,5 +6,4 @@
 module.exports = Word;
 function Word(n) {
     this.word = n;
-    console.log('Word!');
 }

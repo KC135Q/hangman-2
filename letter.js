@@ -6,5 +6,4 @@
 module.exports = Letter;
 function Letter(n) {
     this.letter = n;
-    console.log('The letter is in');
 }

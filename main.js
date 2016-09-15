@@ -8,3 +8,15 @@ var inquirer = require('inquirer');
 game();
 letter();
 word();
+var gameWord = '';
+
+function start() {
+    this.gameWord = game.word;
+    console.log("Word: "+ this.gameWord);
+}
+
+function getLetter() {
+    
+}
+
+start();
